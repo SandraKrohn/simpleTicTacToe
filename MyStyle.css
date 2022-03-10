@@ -1,0 +1,28 @@
+#pane {
+    -fx-background-color: #004a13;
+}
+
+#bar {
+    -fx-background-color: #011a00;
+    -fx-font-size: 15px;
+    -fx-spacing: 50px;
+}
+
+#item {
+    -fx-background-color: #011a00;
+}
+
+.button {
+    -fx-font-size: 15px;
+}
+
+.button:hover {
+    -fx-background-color: #62d9c9;
+}
+
+.label {
+    -fx-font-family: "courier new";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill:#00ff41;
+}

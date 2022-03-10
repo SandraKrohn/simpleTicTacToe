@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@/MyApp/CSS/MyStyle.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyApp.Controller.TicTacToeController">
+   <children>
+      <Label fx:id="labelTitle" layoutX="204.0" layoutY="21.0" text="Awesome game:" />
+      <Label fx:id="labelWinner" layoutX="112.0" layoutY="347.0" text="Winner:" />
+      <Label fx:id="labelWinnerText" layoutX="282.0" layoutY="347.0" text="---" />
+      <Button fx:id="button1" layoutX="185.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button2" layoutX="258.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button3" layoutX="334.0" layoutY="82.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button4" layoutX="184.0" layoutY="156.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button5" layoutX="257.0" layoutY="156.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button6" layoutX="333.0" layoutY="156.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button7" layoutX="184.0" layoutY="235.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button8" layoutX="257.0" layoutY="235.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="button9" layoutX="333.0" layoutY="235.0" mnemonicParsing="false" onAction="#onButtonTurnClick" prefHeight="64.0" prefWidth="64.0" />
+      <Button fx:id="buttonReset" layoutX="471.0" layoutY="343.0" mnemonicParsing="false" onAction="#onButtonResetClick" rotate="45.0" text="Reset" />
+   </children>
+</AnchorPane>
